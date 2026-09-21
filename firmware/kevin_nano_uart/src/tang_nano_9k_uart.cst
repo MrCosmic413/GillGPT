@@ -1,0 +1,10 @@
+IO_LOC "clk" 52;
+IO_PORT "clk" PULL_MODE=UP;
+
+IO_LOC "uart_rx" 25;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "uart_tx" 26;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33;
+
+IO_LOC "led" 10;
